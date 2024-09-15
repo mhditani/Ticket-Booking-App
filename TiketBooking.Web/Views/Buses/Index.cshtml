@@ -1,0 +1,53 @@
+﻿@model IEnumerable<TiketBooking.Web.ViewModels.BusVM.BusViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Buses List</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-info">Create New Bus</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BusNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaxSeatCapacity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BusImage)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BusNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaxSeatCapacity)
+            </td>
+            <td>
+                <img src="@item.BusImage" style="width:100px; height:100px; border-radius:50%"/>
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new {  id=item.Id}) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

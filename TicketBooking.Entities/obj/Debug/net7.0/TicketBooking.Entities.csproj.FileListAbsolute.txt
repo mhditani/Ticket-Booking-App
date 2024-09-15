@@ -1,0 +1,11 @@
+C:\Users\moita\source\repos\TiketBooking\TicketBooking.Entities\bin\Debug\net7.0\TicketBooking.Entities.deps.json
+C:\Users\moita\source\repos\TiketBooking\TicketBooking.Entities\bin\Debug\net7.0\TicketBooking.Entities.dll
+C:\Users\moita\source\repos\TiketBooking\TicketBooking.Entities\bin\Debug\net7.0\TicketBooking.Entities.pdb
+C:\Users\moita\source\repos\TiketBooking\TicketBooking.Entities\obj\Debug\net7.0\TicketBooking.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\moita\source\repos\TiketBooking\TicketBooking.Entities\obj\Debug\net7.0\TicketBooking.Entities.AssemblyInfoInputs.cache
+C:\Users\moita\source\repos\TiketBooking\TicketBooking.Entities\obj\Debug\net7.0\TicketBooking.Entities.AssemblyInfo.cs
+C:\Users\moita\source\repos\TiketBooking\TicketBooking.Entities\obj\Debug\net7.0\TicketBooking.Entities.csproj.CoreCompileInputs.cache
+C:\Users\moita\source\repos\TiketBooking\TicketBooking.Entities\obj\Debug\net7.0\TicketBooking.Entities.dll
+C:\Users\moita\source\repos\TiketBooking\TicketBooking.Entities\obj\Debug\net7.0\refint\TicketBooking.Entities.dll
+C:\Users\moita\source\repos\TiketBooking\TicketBooking.Entities\obj\Debug\net7.0\TicketBooking.Entities.pdb
+C:\Users\moita\source\repos\TiketBooking\TicketBooking.Entities\obj\Debug\net7.0\ref\TicketBooking.Entities.dll
